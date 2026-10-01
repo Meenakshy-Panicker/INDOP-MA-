@@ -1,0 +1,5 @@
+component,label,mean_dbx,std_db,weight
+1,Noise,-117.168,0.071,0.817
+2,Signal-1,-116.824,0.229,0.166
+3,Signal-2,-115.315,0.600,0.015
+4,Signal-3,-109.818,0.001,0.001

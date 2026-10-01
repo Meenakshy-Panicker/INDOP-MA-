@@ -1,0 +1,69 @@
+# POWDER nodes used in the INDOP multi-node campaign (paper Dataset 3).
+#
+# Coordinates are APPROXIMATE building locations on the University of Utah
+# campus, entered by hand for plotting and spatial interpolation only.
+# Replace them with the surveyed coordinates from the POWDER inventory
+# (https://www.powderwireless.net/) before using any map for publication.
+#
+# `serial` is filled in for radios with lab calibration tables; others use
+# the self-calibrated GT (mu_noise + 3 sigma_noise).
+
+campaign:
+  band: CBRS
+  center_freq_mhz: 3595
+  bandwidth_hz: 1000000
+  sample_rate_hz: 1000000
+  chunk_seconds: 0.1
+  gain_db: 60
+  session_minutes: 20
+  anchor_seconds: 72
+
+nodes:
+  - name: Sagepoint
+    location: Engineering
+    lat: 40.7686
+    lon: -111.8457
+    serial: "31722B7"        # nuc2-b210, exact calibration tables available
+    radio: USRP B210
+  - name: Web
+    location: Warnock Engineering Building
+    lat: 40.7679
+    lon: -111.8467
+    serial: null
+    radio: USRP B210
+  - name: Guesthouse
+    location: University Guest House
+    lat: 40.7621
+    lon: -111.8366
+    serial: null
+    radio: USRP B210
+  - name: Moran
+    location: Moran Eye Center
+    lat: 40.7704
+    lon: -111.8379
+    serial: null
+    radio: USRP B210
+  - name: Madsen
+    location: Madsen building
+    lat: 40.7590
+    lon: -111.8360
+    serial: null
+    radio: USRP B210
+  - name: Law73
+    location: Law building
+    lat: 40.7616
+    lon: -111.8510
+    serial: null
+    radio: USRP B210
+  - name: EBC
+    location: Eccles Broadcast Center
+    lat: 40.7672
+    lon: -111.8318
+    serial: null
+    radio: USRP B210
+
+# Placeholder location of the dominant CBRS 3595 MHz transmitter, used ONLY
+# by the synthetic simulator. Not a surveyed position.
+synthetic_transmitter:
+  lat: 40.7665
+  lon: -111.8480

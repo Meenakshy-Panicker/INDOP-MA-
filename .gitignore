@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+# raw captures and per-session node outputs are large / not versioned
+*.fc32
+*.sc16
+*.dat
+results/npz/
+.ruff_cache/

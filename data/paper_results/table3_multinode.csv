@@ -1,0 +1,6 @@
+node,location,indop_pct,gt_pct,gap_pp,exact_calibration
+Sagepoint,Engineering,17.7,19.1,-1.4,yes
+Web,Web building,36.5,38.9,-2.4,no
+Guesthouse,Guesthouse,27.5,22.4,5.1,no
+Moran,Moran bldg.,21.2,18.7,2.5,no
+Madsen,Madsen bldg.,31.2,29.2,2.0,no

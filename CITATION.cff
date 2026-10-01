@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the INDOP paper."
+title: "INDOP-MA: Multi-Node Spatial Evaluation and Distributed INDOP"
+authors:
+  - family-names: Panicker
+    given-names: Meenakshy
+version: 0.1.0
+date-released: 2026-10-01
+repository-code: "https://github.com/Meenakshy-Panicker/INDOP-MA-"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "INDOP: Calibration-Free Spectrum Occupancy Estimation Using Unsupervised Learning on Raw IQ Data"
+  authors:
+    - family-names: Sreenivas
+      given-names: Devagopal
+    - family-names: Patwari
+      given-names: Neal
+    - family-names: Kasera
+      given-names: Sneha
+  collection-title: "Proceedings of the ACM International Conference on Mobile Computing and Networking (MobiCom '27)"
+  year: 2026

@@ -1,0 +1,7 @@
+method,occupancy_pct,gap_pp,calibrated
+Physics GT,19.0,0.0,yes
+DySPAN (5th pct + 3 dB),0.0,-19.0,no
+Std. GMM 3sigma (full capture),24.2,5.1,no
+INDOP Anchor GMM (72 s),17.7,-1.4,no
+INDOP HMM hard (P>0.5),17.8,-1.2,no
+INDOP HMM soft (mean P),20.1,1.1,no

@@ -1,0 +1,3 @@
+alpha_hz,feature,peak_db_above_noise
+1000,LTE subframe (1 ms),11.8
+2000,LTE slot (0.5 ms),9.7
